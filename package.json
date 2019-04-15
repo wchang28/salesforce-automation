@@ -3,8 +3,7 @@
   "version": "1.0.0",
   "description": "Salesforce Automation Tools",
   "scripts": {
-    "transpile": "tsc",
-    "postinstall": "npm run transpile"
+    "transpile": "tsc"
   },
   "bin": {
     "sf-password-login": "./dist/password-login/cli.js",
