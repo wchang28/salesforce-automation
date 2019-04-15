@@ -1,0 +1,26 @@
+{
+  "name": "salesforce-automation",
+  "version": "1.0.0",
+  "description": "Salesforce Automation Tools",
+  "scripts": {
+    "transpile": "tsc",
+    "postinstall": "npm run transpile"
+  },
+  "bin": {
+    "sf-password-login": "./dist/password-login/cli.js",
+    "sf-query": "./dist/query/cli.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wchang28/salesforce-automation.git"
+  },
+  "author": "Wen Chang",
+  "license": "MIT",
+  "dependencies": {
+    "@types/node": "^11.13.4",
+    "@types/superagent": "^4.1.1",
+    "rest-api-client": "https://github.com/wchang28/rest-api-client.git",
+    "superagent": "^5.0.2",
+    "typescript": "^3.4.3"
+  }
+}
